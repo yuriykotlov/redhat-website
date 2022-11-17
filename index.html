@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Site - Index</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Red_Hat_logo.svg/220px-Red_Hat_logo.svg.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Red_Hat_logo.svg/220px-Red_Hat_logo.svg.png" alt="Logo">
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="index.html" class="navbar-item is-active">
+                        Home
+                    </a>
+                    <a href="about.html" class="navbar-item">
+                        About
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+
+    <section class="hero is-info is-medium is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title has-text-black-bis is-size-1">This is a custom edited HTML file that I customized to my liking.</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+            <article class="main-article">
+                <div class="card index-card article">
+                    <div class="card-content">
+                        <div class="content article-body">
+                            <div class="media">
+                                <div class="media-content has-text-centered">
+                                    <p class="title article-title">Yes, I know how to center a div.</p>
+                                </div>
+                            </div>
+                            <p class="blog-text">
+                                Before saying (writing) anything else I just wanted to give
+                                and honorable mention to the access card. I like opening
+                                doors and it feels <i>cool</i> to do so. It's nice. It fills
+                                me up with awesomeness and excitement and... it's one of the
+                                best things about Red Hat in (at least) the Waterford building location.
+                                <br><br>
+                                I am at Red Hat and I am really enjoying it.
+                                I am not finding anything boring and this further helps me
+                                to realise that I would want to do this (programming) as a career
+                                in my life.
+                                <br><br>
+                                All the workshops and talks were really insightful
+                                and I have learned a lot. I am looking forward to this Friday's
+                                Robot Programming and Racing and I think it will be fun.
+                                <br><br>
+                                The mentors are helpful and taught me a lot like Git in the terminal,
+                                Python, Processing (I liked that a lot), and other stuff.
+                                It's really fun here and the coffee is actually <i>not that bad</i> here
+                                for coffee machine standards. The free snacks help a lot too
+                                for just I guess, giving yourself a treat or a snack.
+                                <br><br>
+                                I would definetely want to do this again sometime and it's
+                                really cool to see what happens inside a mega-million-dollar-valued-mega-tech-corporation-company like Red Hat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+    </div>
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            //The first argument are the elements to which the plugin shall be initialized
+            //The second argument has to be at least a empty object or a object with your desired options
+            OverlayScrollbars(document.querySelectorAll("body"), {});
+        });
+    </script>
+</body>
+
+</html>
